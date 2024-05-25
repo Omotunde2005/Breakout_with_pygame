@@ -13,8 +13,8 @@ class Bricks:
         self.set_values()
 
     def set_values(self):
-        y_values = [int(y) for y in range(100, 200, 25)]
-        x_values = [int(x) for x in range(10, 596, 45)]
+        y_values = [int(y) for y in range(100, 150, 25)]
+        x_values = [int(x) for x in range(10, 550, 42)]
         y_index = 0
         self.loop(x_values, y_values, y_index)
 

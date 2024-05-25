@@ -39,7 +39,7 @@ class ScoreBoard:
 
     def success(self):
         game_success_color = 'green'
-        game_success_font = pg.font.SysFont("calibri", 20)
+        game_success_font = pg.font.SysFont("calibri", 30)
         game_success_text = game_success_font.render(f"You won! Click '0' to restart.", True, game_success_color)
         game_success_rect = game_success_text.get_rect(topleft=(50, 300))
         self.screen.blit(game_success_text, (50, 300))
